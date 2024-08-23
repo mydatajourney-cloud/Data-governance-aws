@@ -18,13 +18,13 @@ Nội dung ở đây tập trung ở phần lý thuyết, các slide nói về d
 - Chất lượng dữ liệu cần phải luôn đúng để đưa ra các quyết định đúng.
 
 *Quy tắc trên được đánh giá dựa trên các tiêu chuẩn sau: 
-- Accessibility: liệu rằng dữ liệu có được truy cập bởi đúng người.
-- Accuracy: tính chính xác của dữ liệu.
-- Completeness: liệu rằng dữ liệu có đủ hoàn thiện chưa hay cần phải thu thập thêm.
-- Consistency:
-- Relevance: liệu rằng dữ liệu của ta có luôn được cập nhật không, dữ liệu đang được lưu trữ có cần thiết không. Hoặc là có dữ liệu nào cần được nén lại không.
-- Timeliness: liệu rằng dữ liệu ta cần có thể truy cập được kịp thời không.
-- Uniqueless: khi đo lường những bộ dữ liệu đang có ta cần phải xem dữ liệu ta có bị trùng lặp không và phải chắc rằng nguồn mà ta lấy phải unique
++ Accessibility: liệu rằng dữ liệu có được truy cập bởi đúng người.
++ Accuracy: tính chính xác của dữ liệu.
++ Completeness: liệu rằng dữ liệu có đủ hoàn thiện chưa hay cần phải thu thập thêm.
++ Consistency:
++ Relevance: liệu rằng dữ liệu của ta có luôn được cập nhật không, dữ liệu đang được lưu trữ có cần thiết không. Hoặc là có dữ liệu nào cần được nén lại không.
++ Timeliness: liệu rằng dữ liệu ta cần có thể truy cập được kịp thời không.
++ Uniqueless: khi đo lường những bộ dữ liệu đang có ta cần phải xem dữ liệu ta có bị trùng lặp không và phải chắc rằng nguồn mà ta lấy phải unique
 
 ⇒ Khi xây dựng một chương trình data governance ta cần phải xem liệu rằng các vấn đề ở trong công ty có thể kết nối tới những principle nào phía trên.
 
@@ -35,7 +35,6 @@ Tìm hiểu thêm: [Defining Data Governance Core Principles – TDAN.com](https
 3. Challanges with building data lake with data governance ?
 ![Untitled (3)](https://github.com/user-attachments/assets/52b863c8-0245-4dca-bee6-405565e66b7b)
 -Data Lake không chỉ là nơi bỏ tất cả dữ liệu vào mà nó cần phải đáp ứng nhu cầu phân tích dữ liệu. Các dữ liệu trong Data Lake cần phải được tách biệt và đóng khối theo mục tiêu của consumers. 
-
 -Chính vì thế mà ta cần phải có các vùng (zones) để thoả các yêu cầu theo loại dữ liệu, mức độ quality của dữ liệu, mục tiêu phân tích:  Landing/raw zones, Standardrized zone, Consumption zone, Exploratory zone 
 
 + Landing/raw zone: điểm đầu tiên quản lý các dữ liệu ở định dạng gốc cho trường hợp Batch và Streaming. Dữ liệu tại lớp này sẽ được xác định giữ lại trong bao lâu.
