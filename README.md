@@ -1,15 +1,15 @@
 # Data-governance-fundemental and on aws 
 Nội dung ở đây tập trung ở phần lý thuyết, các slide nói về data governance mình kiếm được của aws. Tập trung service Data Lakeformation 
-1. Data governance là gì ?
+**1. Data governance là gì ?**
 - Data Governance là một trong những kiến thức rất quan trọng khi làm việc với data platform. Phần lớn thời gian doanh nghiệp lãng phí là để quản lý dữ liệu trong doanh nghiệp sao cho dữ liệu được tin cậy và xác định đúng người có quyền truy cập gì để tối ưu hiệu quả BI và không để rò rỉ những dữ liệu quan trọng khách hàng như PII.
-2. Lợi ích data governance ?
+**2. Lợi ích data governance ?**
 - Bảo mật dữ liệu: bảo mật dữ liệu ở bên trong công ty, giữa các phòng ban và từ bên ngoài. Chỉ những phòng ban được cho phép mới có thể access dữ liệu
 - Giúp đảm bảo đáp dữ liệu đáp ứng những tiêu chuẩn công ty và quốc gia sở tại.
 - Cải thiện chất lượng dữ liệu.
 - Tránh trường hợp dữ liệu không đồng nhất giữa các phòng ban.
 - Tăng tính tin cậy của dữ liệu nhờ vào các quy trình, quy tắc được triển khai.
 - Cải thiện việc phân tích và đưa ra quyết định công ty
-3. Quy tắc chính của data governance ?
+**3. Quy tắc chính của data governance ?**
 ![Untitled (4)](https://github.com/user-attachments/assets/edc67889-a75e-4c07-8104-54d222ed3db1)
 - “My data” → “Our data”: Dữ liệu nên được chia sẻ với nhau giữa các phòng ban trong công ty chứ không chỉ riêng mỗi phòng ban. Tất nhiên việc chia sẻ những dữ liệu nhạy cảm (ví dụ như phòng ban HR sẽ không phù hợp). 
 ⇒ Nên có một cấu trúc để dữ liệu có thể được chia sẻ tuỳ theo như cầu phân tích và quyền truy cập dữ liệu.
@@ -30,10 +30,10 @@ Nội dung ở đây tập trung ở phần lý thuyết, các slide nói về d
 
 Tìm hiểu thêm: [Defining Data Governance Core Principles – TDAN.com](https://tdan.com/defining-data-governance-core-principles/17087)
 
-4. What aws help to solve data governance ?
+**4. What aws help to solve data governance ?**
 ![Untitled](https://github.com/user-attachments/assets/6fbfcb16-745f-4a44-a27f-2739f0fef8dc)
 - AWS hỗ trợ việc quản lý bảo mật dữ liệu thông qua chủ yếu các service monitoring như CloudTrail, CloudWatch và Data Lakeformation.  
-5. Challanges with building data lake with data governance ?
+**5. Challanges with building data lake with data governance ?**
 ![Untitled (3)](https://github.com/user-attachments/assets/52b863c8-0245-4dca-bee6-405565e66b7b)
 - Data Lake không chỉ là nơi bỏ tất cả dữ liệu vào mà nó cần phải đáp ứng nhu cầu phân tích dữ liệu. Các dữ liệu trong Data Lake cần phải được tách biệt và đóng khối theo mục tiêu của consumers. 
 - Chính vì thế mà ta cần phải có các vùng (zones) để thoả các yêu cầu theo loại dữ liệu, mức độ quality của dữ liệu, mục tiêu phân tích:  Landing/raw zones, Standardrized zone, Consumption zone, Exploratory zone 
