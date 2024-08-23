@@ -33,7 +33,7 @@ Tìm hiểu thêm: [Defining Data Governance Core Principles – TDAN.com](https
 4. What aws help to solve data governance ?
 ![Untitled](https://github.com/user-attachments/assets/6fbfcb16-745f-4a44-a27f-2739f0fef8dc)
 - AWS hỗ trợ việc quản lý bảo mật dữ liệu thông qua chủ yếu các service monitoring như CloudTrail, CloudWatch và Data Lakeformation.  
-3. Challanges with building data lake with data governance ?
+5. Challanges with building data lake with data governance ?
 ![Untitled (3)](https://github.com/user-attachments/assets/52b863c8-0245-4dca-bee6-405565e66b7b)
 - Data Lake không chỉ là nơi bỏ tất cả dữ liệu vào mà nó cần phải đáp ứng nhu cầu phân tích dữ liệu. Các dữ liệu trong Data Lake cần phải được tách biệt và đóng khối theo mục tiêu của consumers. 
 - Chính vì thế mà ta cần phải có các vùng (zones) để thoả các yêu cầu theo loại dữ liệu, mức độ quality của dữ liệu, mục tiêu phân tích:  Landing/raw zones, Standardrized zone, Consumption zone, Exploratory zone 
