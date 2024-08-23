@@ -29,6 +29,7 @@ Nội dung ở đây tập trung ở phần lý thuyết, các slide nói về d
 ⇒ Khi xây dựng một chương trình data governance ta cần phải xem liệu rằng các vấn đề ở trong công ty có thể kết nối tới những principle nào phía trên.
 
 Tìm hiểu thêm: [Defining Data Governance Core Principles – TDAN.com](https://tdan.com/defining-data-governance-core-principles/17087)
+
 4. What aws help to solve data governance ?
 ![Untitled](https://github.com/user-attachments/assets/6fbfcb16-745f-4a44-a27f-2739f0fef8dc)
 - AWS hỗ trợ việc quản lý bảo mật dữ liệu thông qua chủ yếu các service monitoring như CloudTrail, CloudWatch và Data Lakeformation.  
