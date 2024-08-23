@@ -6,8 +6,7 @@ Data Governance là một trong những kiến thức rất quan trọng khi là
 ![Untitled](https://github.com/user-attachments/assets/6fbfcb16-745f-4a44-a27f-2739f0fef8dc)
 - AWS hỗ trợ việc quản lý bảo mật dữ liệu thông qua chủ yếu các service monitoring như CloudTrail, CloudWatch và Data Lakeformation.  
 3. Challanges with building data lake with data governance ?
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/f00c4aab-69cd-4657-92af-51b4d5db5334/a8df1392-bcee-4895-8a85-e6c77f40eff7/Untitled.png)
-4. Data lake zone in AWS
+![Untitled (3)](https://github.com/user-attachments/assets/52b863c8-0245-4dca-bee6-405565e66b7b)
 -Data Lake không chỉ là nơi bỏ tất cả dữ liệu vào mà nó cần phải đáp ứng nhu cầu phân tích dữ liệu. Các dữ liệu trong Data Lake cần phải được tách biệt và đóng khối theo mục tiêu của consumers. 
 
 -Chính vì thế mà ta cần phải có các vùng (zones) để thoả các yêu cầu theo loại dữ liệu, mức độ quality của dữ liệu, mục tiêu phân tích:  Landing/raw zones, Standardrized zone, Consumption zone, Exploratory zone 
@@ -15,4 +14,4 @@ Data Governance là một trong những kiến thức rất quan trọng khi là
 + Landing/raw zone: điểm đầu tiên quản lý các dữ liệu ở định dạng gốc cho trường hợp Batch và Streaming. Dữ liệu tại lớp này sẽ được xác định giữ lại trong bao lâu.
 + Standarized zone:  lớp biến đổi dữ liệu thực hiện những phương pháp biến đổi để đáp ứng nhu cầu hiệu suất và phân tích khác nhau.
 + Consumption zone: data product
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/f00c4aab-69cd-4657-92af-51b4d5db5334/a89939c3-905e-4353-85e6-7d95e0a7ff40/Untitled.png)
+![Untitled (3)](https://github.com/user-attachments/assets/914461f4-812e-4616-b51d-6517c39b203f)
